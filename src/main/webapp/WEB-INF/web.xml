@@ -1,0 +1,20 @@
+<web-app>
+    <servlet>
+        <servlet-name>RegistroClientesServlet</servlet-name>
+        <servlet-class>com.tuapp.registroclientes.RegistroClientesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistroClientesServlet</servlet-name>
+        <url-pattern>/registroClientes</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Nuevo servlet y mapeo para el registro de usuarios -->
+    <servlet>
+        <servlet-name>RegistroUsuariosServlet</servlet-name>
+        <servlet-class>com.tuapp.registrousuarios.RegistroUsuariosServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistroUsuariosServlet</servlet-name>
+        <url-pattern>/registroUsuarios</url-pattern>
+    </servlet-mapping>
+</web-app>
